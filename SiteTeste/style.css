@@ -1,0 +1,46 @@
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+      flex-wrap: wrap; /* permite quebra em telas menores */
+    }
+
+    .caixa {
+      width: 150px;
+      height: 200px;
+      background-color: rgb(216, 171, 57);
+      color: white;
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between;
+      padding: 10px;
+      border-radius: 8px;
+      font-family: sans-serif;
+    }
+
+    .botoes {
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+    }
+
+    .botoes button {
+      flex: 1;
+      padding: 5px;
+      border: none;
+      background-color: #ffffff;
+      color: #4CAF50;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .botoes button:hover {
+      background-color: #e0e0e0;
+    }
+
+    .botoes .buy{background-color:rgb(54, 255, 64); color: #ffffff;}
+    .botoes .info{background-color: rgb(138, 124, 124); color: #ffffff;}
+
